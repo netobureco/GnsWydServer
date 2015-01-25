@@ -1,0 +1,132 @@
+﻿Build started 22/12/2013 00:56:42.
+Project "C:\Users\Maristela\Desktop\Source Ultimate Destiny\oxablod1\oxablod1.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "Debug\oxablod1.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D OXABLOD1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\oxablod1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D OXABLOD1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\oxablod1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ASM_Hook.cpp AddExp.cpp AddExp_def.cpp AddMessage.cpp Agua.cpp Alquimia.cpp Arch.cpp Avisos.cpp Banacc.cpp Capas.cpp Capasreino.cpp Cartas.cpp Cash.cpp Cash_DataBase.cpp Celestial.cpp CharLogin.cpp CheckPacket.cpp ComandoMOD.cpp ComandosAdmin.cpp Command.cpp Commd_Packet.cpp Compor_Ordens.cpp Compor_Pedra_ReturnofGlory.cpp Conect.cpp DataBase.cpp DellItem754.cpp DesbugSkills.cpp DllItem.cpp Donate.cpp EquipItems.cpp Evento.cpp ExitParty.cpp ExpControl.cpp Fix_AddPoint.cpp Fix_PacketControl.cpp Fix_Skill_Check.cpp "Fix_Skill_Extraçao.cpp" Func.cpp Gate.cpp GetCreateMob.cpp GetCreateMobTrade.cpp GlobalData.cpp Gritar.cpp Guild.cpp Hard_Core.cpp ImportaItens.cpp Init.cpp Item.cpp Level.cpp Load_Save.cpp Login.cpp MestreGrifo.cpp Mestre_Habilidade.cpp MobDead.cpp NPCFunc.cpp NPCLoad.cpp NPCs_Guerra.cpp New_Odin.cpp New_Volatiles.cpp Noticias.cpp Nova_Loja.cpp Novo_Gold.cpp Npc_Janela.cpp Numerica.cpp NvPremio.cpp OnSite.cpp PE_DefConst.cpp PacketControl_ASM.cpp PedraMisteriosa.cpp PergaA.cpp PergaM.cpp PergaN.cpp Perzen.cpp Pesadelo.cpp Pista_Uxmal_01.cpp Pista_Uxmal_02.cpp Premiun_Niel.cpp Quantidade_Gold.cpp QuestHC.cpp Quest_Arch.cpp Rankingsite.cpp ReadMessage.cpp Recrutar.cpp "Refinação_PL_PO.cpp" Remove_Buffs.cpp ReturnofGlory.cpp Salva_SubCelestia.cpp SaveAndLoadBuffs.cpp SendAffect.cpp SendEtc.cpp SendScore.cpp SendTrade.cpp Send_Packets.cpp Sistema_de_ban.cpp "SkillExtração.cpp" Sol.cpp Sub_Celestial.cpp Tab.cpp Tab_Send.cpp Teleportes.cpp Terra.cpp Trade.cpp TrocaClasse.cpp UseSkill1.cpp Vento.cpp VerSaldo.cpp Volatiles.cpp VolatilesFunc.cpp aHack.cpp buffs.cpp cConfig.cpp desbugbm.cpp oxablod1.cpp rvr.cpp vip_item.cpp
+  Command.cpp
+c:\users\maristela\desktop\source ultimate destiny\oxablod1\command.cpp(159): error C2181: illegal else without matching if
+c:\users\maristela\desktop\source ultimate destiny\oxablod1\command.cpp(413): fatal error C1075: end of file found before the left brace '{' at 'c:\users\maristela\desktop\source ultimate destiny\oxablod1\command.cpp(11)' was matched
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  vip_item.cpp
+  rvr.cpp
+  oxablod1.cpp
+  desbugbm.cpp
+  cConfig.cpp
+  buffs.cpp
+  aHack.cpp
+  VolatilesFunc.cpp
+  Volatiles.cpp
+  VerSaldo.cpp
+  Vento.cpp
+  UseSkill1.cpp
+  TrocaClasse.cpp
+  Trade.cpp
+  Terra.cpp
+  Teleportes.cpp
+  Tab_Send.cpp
+  Tab.cpp
+  Sub_Celestial.cpp
+  Sol.cpp
+  SkillExtração.cpp
+  Sistema_de_ban.cpp
+  Send_Packets.cpp
+  SendTrade.cpp
+  SendScore.cpp
+  SendEtc.cpp
+  SendAffect.cpp
+  SaveAndLoadBuffs.cpp
+  Salva_SubCelestia.cpp
+  ReturnofGlory.cpp
+  Remove_Buffs.cpp
+  Refinação_PL_PO.cpp
+  Recrutar.cpp
+  ReadMessage.cpp
+  Rankingsite.cpp
+  Quest_Arch.cpp
+  QuestHC.cpp
+  Quantidade_Gold.cpp
+  Premiun_Niel.cpp
+  Pista_Uxmal_02.cpp
+  Pista_Uxmal_01.cpp
+  Pesadelo.cpp
+  Perzen.cpp
+  PergaN.cpp
+  PergaM.cpp
+  PergaA.cpp
+  PedraMisteriosa.cpp
+  PacketControl_ASM.cpp
+  PE_DefConst.cpp
+  OnSite.cpp
+  NvPremio.cpp
+  Numerica.cpp
+  Npc_Janela.cpp
+  Novo_Gold.cpp
+  Nova_Loja.cpp
+  Noticias.cpp
+  New_Volatiles.cpp
+  New_Odin.cpp
+  NPCs_Guerra.cpp
+  NPCLoad.cpp
+  NPCFunc.cpp
+  MobDead.cpp
+  Mestre_Habilidade.cpp
+  MestreGrifo.cpp
+  Login.cpp
+  Load_Save.cpp
+  Level.cpp
+  Item.cpp
+  Init.cpp
+  ImportaItens.cpp
+  Hard_Core.cpp
+  Guild.cpp
+  Gritar.cpp
+  GlobalData.cpp
+  GetCreateMobTrade.cpp
+  GetCreateMob.cpp
+  Gate.cpp
+  Func.cpp
+  Fix_Skill_Extraçao.cpp
+  Fix_Skill_Check.cpp
+  Fix_PacketControl.cpp
+  Fix_AddPoint.cpp
+  ExpControl.cpp
+  ExitParty.cpp
+  Evento.cpp
+  EquipItems.cpp
+  Donate.cpp
+  DllItem.cpp
+  DesbugSkills.cpp
+  DellItem754.cpp
+  DataBase.cpp
+  Conect.cpp
+  Compor_Pedra_ReturnofGlory.cpp
+  Compor_Ordens.cpp
+  Commd_Packet.cpp
+  ComandosAdmin.cpp
+  ComandoMOD.cpp
+  CheckPacket.cpp
+  CharLogin.cpp
+  Celestial.cpp
+  Cash_DataBase.cpp
+  Cash.cpp
+  Cartas.cpp
+  Capasreino.cpp
+  Capas.cpp
+  Banacc.cpp
+  Avisos.cpp
+  Arch.cpp
+  Alquimia.cpp
+  Agua.cpp
+  AddMessage.cpp
+  AddExp_def.cpp
+  AddExp.cpp
+  ASM_Hook.cpp
+Done Building Project "C:\Users\Maristela\Desktop\Source Ultimate Destiny\oxablod1\oxablod1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.76

@@ -1,0 +1,87 @@
+                                 DESERTO
+<p>
+
+TAURON:Peito teia,peito elemental,peito mytril,peito embutido
+<p>
+TAURON:Cauça teia,cauça elemental,cauça mytril,cauça embutido
+<p>
+
+Aranha inferno:Luva teia,luva elemental,luva mytril,luva embutido
+<p>
+Aranha ifnerno:Bota teia,bota elemental,bota mytril,bota embutido
+<p>
+Ladrão Tauron:Martelo assasino,arco divino,arco elfico,martelo do dragão
+<p>
+Ladrão Tauron:Furia Divina,Olho De Cabluk,Escudo De Runas,Cajado Ambar
+<p>
+Lugefer:Barra De 1kk,Barra De 5kk,Ovo De Fenrrir,Amago De Fenrrir
+<p>
+Cav.Lugefer:Inteligencia,Sabedoria,Misericordia,Abismo,Beleza,Vitoria,Originalidade,Reino
+<p>
+ 
+                                 GELO
+<p>
+Lobo:Peito rake,peito destruição,peito flamejante,peito guardiã.Pedra Da Luz
+<p>
+Lobo:Cauça rake,cauça destruição,cauça flamejante,cauça guardiã,Pedra Da Luz
+<p>
+Grande Lobo:Luva rake,luva destruição,luva flamejante,luva guardiã.Pedra Da Luz
+<p>
+Grande Lobo:Bota rake,bota destruição,bota flamejante,bota guardiã,Pedra Da Luz
+<p>
+Homem Kalintz:Skylatos,Balmung,Kalibur,Hermai,Thyertes
+<p>
+Mulher Kalintz:Eirenus,Neorion,GLeipnir,Escudo Hophon
+<p>
+Bersek Ref:Pergaminho Da agua M,POeira De Lack
+<p>
+
+                                 Kefra
+<p>
+Aranha Dourada:Pergaminho Da Agua [N],Poeira De Lack,Barra De 1kk
+<p>
+LiggleSwarm:Barra De 5kk,Barra De 1kk,Poeira De Lack
+<p>
+Horizon Cropper:Asa draconiana,Arco guardião,Dianus,Eden,Demolidor
+<p>
+Horzin Cropper:Cajado Caotico,Vingadora,Poeira de lack
+<p>
+
+Linch Vatama:Alma Do unicornio,Alma Da Fenix,Poeira De Lack,Muro De Espinhos
+<p>
+Linch Crut:Alma Do Unicornio,Alma Da Fenix,Poeira De Lack,Força Spctral
+<p>
+<p>
+                                Zonas Especiais
+<p>
+                                  Vila Amaldicuada
+<p>
+
+Templario_Amald:Elmo Embutido[LE],Elmo Teia [LE]Elmo Elemental [LE],Elmo Mytril[LE]
+<p>
+Templario_S<p>ol:Peito Teia[LE]Peito elemental[LE]Peito Embutido[LE]Peito Peito Mytril[LE]E TODOS CAUÇAS[LE]
+<p>
+Templario_Terra:Luva Teia[LE],Luva Elemental[LE]Luva Embutido[LE]Luva Mytril[LE]
+
+<p>
+                                     Lan N
+<p>
+Taurus Maldito:Poeira De Lack,Barra De 1kk
+<p>
+                     
+                                     Lan M
+<p>
+Cav.Caveira:Ovo De Andaluz N,Ovo De Andaluz B,Amago De Andaluz N,Amago De Andaluz B
+<p>
+ 
+                                     Lan A
+<p>
+Gargula Giga:Set E
+<p>
+
+                                    Sub Mundo
+<p>
+Agua Golem:Pergaminho Da Agua N,Diamante,Esmeralda,Coral,Garnet,Poeira De Lack
+<p>
+Morlock:Pedra Do Sabio,Classe E
+<p>

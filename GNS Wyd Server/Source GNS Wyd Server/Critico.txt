@@ -1,0 +1,283 @@
+void Ehre(unsigned char* m_PacketBuffer)
+ {
+        st_Mob *player = (st_Mob*)GetMobFromIndex(*(short*)&m_PacketBuffer[6]);
+        char tmp[1024];
+        short clientid = *(short*)&m_PacketBuffer[6];
+        if(clientid < 0 || clientid > 98)
+                return;
+ 
+        short emb1 = m_PacketBuffer[76];
+        short emb2 = m_PacketBuffer[77];
+        short item = m_PacketBuffer[78];
+        static const int critico[3] = {663 ,42, 10};
+        static const int hp[3] = {662, 4, 20};
+        static const int mp[3] = {661, 5, 20};
+ 
+        srand(time(NULL));
+        if((player->Inventory[emb1].Index == critico[0]) || (player->Inventory[emb1].Index == hp[0]) ||
+                (player->Inventory[emb1].Index == mp[0]) || (player->Inventory[emb2].Index == critico[0]) ||
+                (player->Inventory[emb2].Index == hp[0]) || (player->Inventory[emb2].Index == mp[0]))
+        { // 2 Ankhs da Glória
+                int ADD = GetItemADDInventory(clientid, emb1, 43);
+                int ADD2 = GetItemADDInventory(clientid, emb2, 43);
+                if((ADD == 9) && (ADD2 == 9))
+                { // Itens +9
+                        if(player->Inventory[item].Index == 633)
+                        { // Espiritual
+                                int ADD3 = GetItemADDInventory(clientid, item, 43);
+                                if(ADD3 == 9)
+                                {
+                                        if((GetItemADDInventory(clientid, item, 42) <= 40) || (GetItemADDInventory(clientid, item, 4) <= 100) ||
+                                                (GetItemADDInventory(clientid, item, 5) <= 100))
+                                        {
+                                                int chance = rand() % 100;
+                                                if(chance <= 50)
+                                                { // Sucesso
+                                                        player->Inventory[item].Index = 633;
+                                                        if(player->Inventory[emb1].Index == critico[0]) {
+                                                                if(GetItemADDInventory(clientid, item, critico[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == critico[1])
+                                                                        {       player->Inventory[item].EF1 = critico[1];
+                                                                                player->Inventory[item].EFV1 += critico[2];
+                                                                        } else if(player->Inventory[item].EF2 == critico[1]) { 
+                                                                                player->Inventory[item].EF2 = critico[1];
+                                                                                player->Inventory[item].EFV2 += critico[2];
+                                                                        } else if(player->Inventory[item].EF3 == critico[1]) {
+                                                                                player->Inventory[item].EF3 = critico[1];
+                                                                                player->Inventory[item].EFV3 += critico[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = critico[1];
+                                                                                player->Inventory[item].EFV1 += critico[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = critico[1];
+                                                                                player->Inventory[item].EFV2 += critico[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = critico[1];
+                                                                                player->Inventory[item].EFV3 += critico[2];
+                                                                        }
+                                                                }
+                                                        }
+                                                        if(player->Inventory[emb1].Index == hp[0]) {
+                                                                if(GetItemADDInventory(clientid, item, hp[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == hp[1])
+                                                                        {       player->Inventory[item].EF1 = hp[1];
+                                                                                player->Inventory[item].EFV1 += hp[2];
+                                                                        } else if(player->Inventory[item].EF2 == hp[1]) {      
+                                                                                player->Inventory[item].EF2 = hp[1];
+                                                                                player->Inventory[item].EFV2 += hp[2];
+                                                                        } else if(player->Inventory[item].EF3 == hp[1]) {
+                                                                                player->Inventory[item].EF3 = hp[1];
+                                                                                player->Inventory[item].EFV3 += hp[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = hp[1];
+                                                                                player->Inventory[item].EFV1 += hp[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = hp[1];
+                                                                                player->Inventory[item].EFV2 += hp[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = hp[1];
+                                                                                player->Inventory[item].EFV3 += hp[2];
+                                                                        }
+                                                                }
+                                                        }
+                                                        if(player->Inventory[emb1].Index == mp[0]) {
+                                                                if(GetItemADDInventory(clientid, item, mp[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == mp[1])
+                                                                        {       player->Inventory[item].EF1 = mp[1];
+                                                                                player->Inventory[item].EFV1 += mp[2];
+                                                                        } else if(player->Inventory[item].EF2 == mp[1]) {      
+                                                                                player->Inventory[item].EF2 = mp[1];
+                                                                                player->Inventory[item].EFV2 += mp[2];
+                                                                        } else if(player->Inventory[item].EF3 == mp[1]) {
+                                                                                player->Inventory[item].EF3 = mp[1];
+                                                                                player->Inventory[item].EFV3 += mp[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = mp[1];
+                                                                                player->Inventory[item].EFV1 += mp[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = mp[1];
+                                                                                player->Inventory[item].EFV2 += mp[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = mp[1];
+                                                                                player->Inventory[item].EFV3 += mp[2];
+                                                                        }
+                                                                }
+                                                        }
+                                                        if(player->Inventory[emb2].Index == critico[0]) {
+                                                                if(GetItemADDInventory(clientid, item, critico[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == critico[1])
+                                                                        {       player->Inventory[item].EF1 = critico[1];
+                                                                                player->Inventory[item].EFV1 += critico[2];
+                                                                        } else if(player->Inventory[item].EF2 == critico[1]) { 
+                                                                                player->Inventory[item].EF2 = critico[1];
+                                                                                player->Inventory[item].EFV2 += critico[2];
+                                                                        } else if(player->Inventory[item].EF3 == critico[1]) {
+                                                                                player->Inventory[item].EF3 = critico[1];
+                                                                                player->Inventory[item].EFV3 += critico[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = critico[1];
+                                                                                player->Inventory[item].EFV1 += critico[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = critico[1];
+                                                                                player->Inventory[item].EFV2 += critico[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = critico[1];
+                                                                                player->Inventory[item].EFV3 += critico[2];
+                                                                        }
+                                                                }
+                                                        }
+                                                        if(player->Inventory[emb2].Index == hp[0]) {
+                                                                if(GetItemADDInventory(clientid, item, hp[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == hp[1])
+                                                                        {       player->Inventory[item].EF1 = hp[1];
+                                                                                player->Inventory[item].EFV1 += hp[2];
+                                                                        } else if(player->Inventory[item].EF2 == hp[1]) {      
+                                                                                player->Inventory[item].EF2 = hp[1];
+                                                                                player->Inventory[item].EFV2 += hp[2];
+                                                                        } else if(player->Inventory[item].EF3 == hp[1]) {
+                                                                                player->Inventory[item].EF3 = hp[1];
+                                                                                player->Inventory[item].EFV3 += hp[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = hp[1];
+                                                                                player->Inventory[item].EFV1 += hp[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = hp[1];
+                                                                                player->Inventory[item].EFV2 += hp[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = hp[1];
+                                                                                player->Inventory[item].EFV3 += hp[2];
+                                                                        }
+                                                                }
+                                                        }
+                                                        if(player->Inventory[emb2].Index == mp[0]) {
+                                                                if(GetItemADDInventory(clientid, item, mp[1]) != 0)
+                                                                {
+                                                                        if(player->Inventory[item].EF1 == mp[1])
+                                                                        {       player->Inventory[item].EF1 = mp[1];
+                                                                                player->Inventory[item].EFV1 += mp[2];
+                                                                        } else if(player->Inventory[item].EF2 == mp[1]) {      
+                                                                                player->Inventory[item].EF2 = mp[1];
+                                                                                player->Inventory[item].EFV2 += mp[2];
+                                                                        } else if(player->Inventory[item].EF3 == mp[1]) {
+                                                                                player->Inventory[item].EF3 = mp[1];
+                                                                                player->Inventory[item].EFV3 += mp[2];
+                                                                        }
+                                                                } else {
+                                                                        if(player->Inventory[item].EF1 == 0) {
+                                                                                player->Inventory[item].EF1 = mp[1];
+                                                                                player->Inventory[item].EFV1 += mp[2];
+                                                                        } else if(player->Inventory[item].EF2 == 0) {
+                                                                                player->Inventory[item].EF2 = mp[1];
+                                                                                player->Inventory[item].EFV2 += mp[2];
+                                                                        } else if(player->Inventory[item].EF3 == 0) {
+                                                                                player->Inventory[item].EF3 = mp[1];
+                                                                                player->Inventory[item].EFV3 += mp[2];
+                                                                        }
+                                                                }
+                                                        }      
+                                                        SendClientSignalParm(clientid,SERVER_SIDE, 0x3A7, 2);
+                                                        SendClientMsg(clientid,"Composição concluída com sucesso");
+                                                } else if(chance > 40)
+                                                {
+                                                        ZeroSlot(item);
+                                                        SendClientSignalParm(clientid,SERVER_SIDE, 0x3A7, 2);
+                                                        SendClientMsg(clientid, "Houve falha na composição");
+                                                }
+                                                ZeroSlot(emb1);
+                                                ZeroSlot(emb2);
+                                                SendSlot(clientid, emb2);
+                                                SendSlot(clientid, emb1);
+                                                SendSlot(clientid, item);
+                                        } else {
+                                                SendClientMsg(clientid, "O item atingiu o limite de seu adicional");
+                                                return;
+                                        }
+                                } else {
+                                        SendClientMsg(clientid, "Apenas para itens +9");
+                                        return;
+                                }
+                        } else {
+                                SendClientMsg(clientid, "Adicione a [Pedra Espiritual F]");
+                                return;
+                        }
+                } else {
+                        SendClientMsg(clientid, "Necessário itens +9");
+                        return;
+                }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void Guild_Recrutar_Membro(char *Packet)
+ {
+         int ClientId = *(short*)&Packet[6];
+         int MemberIndex = *(short*)&Packet[12];
+         MOB *player = (MOB*)GetMobFromIndex(ClientId);
+         MOB *member = (MOB*)GetMobFromIndex(MemberIndex);
+         char msg[255]; st_Guild Guild[2000];
+ 
+         if(member->Equip[12].Index != 0)
+         {
+                 SendClientMsg(ClientId, "Jogador Já Participa de Uma Guild");
+                 return;
+         }
+         if(player->Equip[12].Index != 509 || (player->Equip[12].Index < 526 && player->Equip[12].Index > 528))
+         {
+                 SendClientMsg(ClientId, "Você Não Tem Permição");
+                 return;
+         }
+         if(player->Gold < 4000000)
+         {
+                 SendClientMsg(ClientId, "Necessário 4 Milhões de Gold");
+                 return;
+         }
+ 
+         member->Equip[12].EF1 = player->Equip[12].EF1;
+         member->Equip[12].EFV1 = player->Equip[12].EFV1;
+         member->Equip[12].EF2 = player->Equip[12].EF2;
+         member->Equip[12].EFV2 = player->Equip[12].EFV2;
+         member->Equip[12].EF3 = player->Equip[12].EF3;
+         member->Equip[12].EFV3 = player->Equip[12].EFV3;
+         member->GuildIndex = player->Equip[12].EFV2;
+         player->Gold -= 4000000;
+         SendALL(ClientId);
+         SendALL(MemberIndex);
+         SendItens(MemberIndex,12);
+         sprintf(msg, "Recrutando pela guild [%s]", Guild[player->Equip[12].EFV2].Name);
+         SendClientMsg(MemberIndex,msg);
+         return;
+ }

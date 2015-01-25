@@ -1,0 +1,19 @@
+﻿Build started 6/5/2014 01:25:10.
+     1>Project "C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\oxablod1\oxablod1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\oxablod1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         oxablod1.vcxproj -> C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\Release\oxablod1.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\oxablod1.unsuccessfulbuild".
+         Touching "Release\oxablod1.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\oxablod1\oxablod1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28

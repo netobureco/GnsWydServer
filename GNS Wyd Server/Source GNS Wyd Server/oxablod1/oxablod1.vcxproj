@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22A71378-E9BB-4954-8F84-458A556CD793}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>oxablod1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OXABLOD1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OXABLOD1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ahack.h" />
+    <ClInclude Include="BaseExp.h" />
+    <ClInclude Include="BaseStruct.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Envoc.h" />
+    <ClInclude Include="Objetos.h" />
+    <ClInclude Include="PE_HOOK.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddExp.cpp" />
+    <ClCompile Include="AddExp_def.cpp" />
+    <ClCompile Include="AddMessage.cpp" />
+    <ClCompile Include="Agua.cpp" />
+    <ClCompile Include="aHack.cpp" />
+    <ClCompile Include="Alquimia.cpp" />
+    <ClCompile Include="Arch.cpp" />
+    <ClCompile Include="ASM_Hook.cpp" />
+    <ClCompile Include="Avisos.cpp" />
+    <ClCompile Include="Banacc.cpp" />
+    <ClCompile Include="BigCubo.cpp" />
+    <ClCompile Include="buffs.cpp" />
+    <ClCompile Include="Capas.cpp" />
+    <ClCompile Include="Capasreino.cpp" />
+    <ClCompile Include="Cartas.cpp" />
+    <ClCompile Include="Cash.cpp" />
+    <ClCompile Include="Cash_DataBase.cpp" />
+    <ClCompile Include="cConfig.cpp" />
+    <ClCompile Include="Celestial.cpp" />
+    <ClCompile Include="CharLogin.cpp" />
+    <ClCompile Include="CheckPacket.cpp" />
+    <ClCompile Include="CLasse_NOVA.cpp" />
+    <ClCompile Include="ComandoMOD.cpp" />
+    <ClCompile Include="ComandosAdmin.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Commd_Packet.cpp" />
+    <ClCompile Include="Compor_Ordens.cpp" />
+    <ClCompile Include="Compor_Pedra_ReturnofGlory.cpp" />
+    <ClCompile Include="Conect.cpp" />
+    <ClCompile Include="DataBase.cpp" />
+    <ClCompile Include="DellItem754.cpp" />
+    <ClCompile Include="desbugbm.cpp" />
+    <ClCompile Include="DesbugSkills.cpp" />
+    <ClCompile Include="DllItem.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Donate.cpp" />
+    <ClCompile Include="EquipItems.cpp" />
+    <ClCompile Include="Evento.cpp" />
+    <ClCompile Include="ExitParty.cpp" />
+    <ClCompile Include="ExpControl.cpp" />
+    <ClCompile Include="Extras.cpp" />
+    <ClCompile Include="Fix_AddPoint.cpp" />
+    <ClCompile Include="Fix_PacketControl.cpp" />
+    <ClCompile Include="Fix_Skill_Check.cpp" />
+    <ClCompile Include="Fix_Skill_Extraçao.cpp" />
+    <ClCompile Include="Func.cpp" />
+    <ClCompile Include="Gate.cpp" />
+    <ClCompile Include="GetCreateMob.cpp" />
+    <ClCompile Include="GetCreateMobTrade.cpp" />
+    <ClCompile Include="GlobalData.cpp" />
+    <ClCompile Include="Gritar.cpp" />
+    <ClCompile Include="Guild.cpp" />
+    <ClCompile Include="Hard_Core.cpp" />
+    <ClCompile Include="ImportaItens.cpp" />
+    <ClCompile Include="Init.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Lac100.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Load_Save.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="MestreGrifo.cpp" />
+    <ClCompile Include="Mestre_Habilidade.cpp" />
+    <ClCompile Include="MobDead.cpp" />
+    <ClCompile Include="New_Odin.cpp" />
+    <ClCompile Include="New_Volatiles.cpp" />
+    <ClCompile Include="Noticias.cpp" />
+    <ClCompile Include="Nova_Classe.cpp" />
+    <ClCompile Include="Nova_Loja.cpp" />
+    <ClCompile Include="Novo_Gold.cpp" />
+    <ClCompile Include="NPCFunc.cpp" />
+    <ClCompile Include="NPCLoad.cpp" />
+    <ClCompile Include="NPCs_Guerra.cpp" />
+    <ClCompile Include="Npc_Janela.cpp" />
+    <ClCompile Include="Numerica.cpp" />
+    <ClCompile Include="NvPremio.cpp" />
+    <ClCompile Include="OnSite.cpp" />
+    <ClCompile Include="oxablod1.cpp" />
+    <ClCompile Include="PacketControl_ASM.cpp" />
+    <ClCompile Include="PedraMisteriosa.cpp" />
+    <ClCompile Include="PergaA.cpp" />
+    <ClCompile Include="PergaM.cpp" />
+    <ClCompile Include="PergaN.cpp" />
+    <ClCompile Include="Perga_CP.cpp" />
+    <ClCompile Include="Pesadelo.cpp" />
+    <ClCompile Include="PE_DefConst.cpp" />
+    <ClCompile Include="Pista_Uxmal_01.cpp" />
+    <ClCompile Include="Pista_Uxmal_02.cpp" />
+    <ClCompile Include="Premiun_Niel.cpp" />
+    <ClCompile Include="Quantidade_Gold.cpp" />
+    <ClCompile Include="QuestHC.cpp" />
+    <ClCompile Include="Quest_Arch.cpp" />
+    <ClCompile Include="Rankingsite.cpp" />
+    <ClCompile Include="ReadMessage.cpp" />
+    <ClCompile Include="Recrutar.cpp" />
+    <ClCompile Include="Refinação_PL_PO.cpp" />
+    <ClCompile Include="Reis.cpp" />
+    <ClCompile Include="Remove_Buffs.cpp" />
+    <ClCompile Include="ReturnofGlory.cpp" />
+    <ClCompile Include="rvr.cpp" />
+    <ClCompile Include="Salva_SubCelestia.cpp" />
+    <ClCompile Include="SaveAndLoadBuffs.cpp" />
+    <ClCompile Include="SendAffect.cpp" />
+    <ClCompile Include="SendEtc.cpp" />
+    <ClCompile Include="SendScore.cpp" />
+    <ClCompile Include="SendTrade.cpp" />
+    <ClCompile Include="Send_Packets.cpp" />
+    <ClCompile Include="Sistema_de_ban.cpp" />
+    <ClCompile Include="SkillExtração.cpp" />
+    <ClCompile Include="Sol.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Sub_Celestial.cpp" />
+    <ClCompile Include="Tab.cpp" />
+    <ClCompile Include="Tab_Send.cpp" />
+    <ClCompile Include="Teleportes.cpp" />
+    <ClCompile Include="Terra.cpp" />
+    <ClCompile Include="Trade.cpp" />
+    <ClCompile Include="TrocaClasse.cpp" />
+    <ClCompile Include="UseSkill1.cpp" />
+    <ClCompile Include="Vento.cpp" />
+    <ClCompile Include="VerSaldo.cpp" />
+    <ClCompile Include="vip_item.cpp" />
+    <ClCompile Include="Volatiles.cpp" />
+    <ClCompile Include="VolatilesFunc.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

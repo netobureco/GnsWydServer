@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DataRead">
+      <UniqueIdentifier>{29ee114e-94e7-4ccb-890e-27e1833d87bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{fce2fca2-c10d-45e1-915c-f6b9c72870e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{30d0bff9-29b9-474a-b102-33a33f5046eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comandos">
+      <UniqueIdentifier>{1fe5dd3d-2f0b-4083-bf13-449e3cb10045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CracketV754">
+      <UniqueIdentifier>{eab5e7c5-c25d-465c-bf6c-2675c842f76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBase">
+      <UniqueIdentifier>{15de1843-a9ce-4ce7-903f-03500f2e7800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Func">
+      <UniqueIdentifier>{b19017de-ed53-40aa-b497-5b88c59761e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guild">
+      <UniqueIdentifier>{c18f8d39-ea6c-44eb-985a-bd344de809b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Macro">
+      <UniqueIdentifier>{a11846de-0879-46b2-960f-22cb7c86216e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mobs">
+      <UniqueIdentifier>{116c9dfd-30c4-4693-90e5-b1f30f38f877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NpcFunc">
+      <UniqueIdentifier>{03df64fc-b174-47fb-b0a9-7a7751ed151d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets">
+      <UniqueIdentifier>{0dc09987-7a57-4e44-9136-d86cfa49084e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{d3ab8839-156d-4f98-bf4f-1cde8128cb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teleportes">
+      <UniqueIdentifier>{a641fcbd-48c0-4205-8644-7cbcab5b9905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Volatiles">
+      <UniqueIdentifier>{447433c6-66da-458b-952d-11f3e2901032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CracketV754\Service">
+      <UniqueIdentifier>{7564b0ff-1034-407e-841e-bc4cdf74a768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CracketV754\Outros">
+      <UniqueIdentifier>{c9e4a12e-024f-416f-9a3b-c9f85537e983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CracketV754\PacketAssembly">
+      <UniqueIdentifier>{9608b451-58b9-4472-8c3e-fa121aa4154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets\Fix">
+      <UniqueIdentifier>{4e118cf6-10d9-4e0d-94d8-d3429e2a802c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Itens_Loja">
+      <UniqueIdentifier>{0d753157-ff1e-4dac-8195-a17bb52409df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skills">
+      <UniqueIdentifier>{d8517a27-e8f8-45ed-9d2c-418dacd0919a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Anti_hacker">
+      <UniqueIdentifier>{feda7abf-36ce-47d8-818b-6079b798e278}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ahack.h">
+      <Filter>Header Files\DataRead</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseExp.h">
+      <Filter>Header Files\DataRead</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\DataRead</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStruct.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Objetos.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="PE_HOOK.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Envoc.h">
+      <Filter>Header Files\DataRead</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oxablod1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arch.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Capas.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Celestial.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Hard_Core.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sub_Celestial.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Commd_Packet.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>Source Files\CracketV754</Filter>
+    </ClCompile>
+    <ClCompile Include="PE_DefConst.cpp">
+      <Filter>Source Files\CracketV754</Filter>
+    </ClCompile>
+    <ClCompile Include="ASM_Hook.cpp">
+      <Filter>Source Files\CracketV754\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="cConfig.cpp">
+      <Filter>Source Files\CracketV754\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Source Files\CracketV754\Outros</Filter>
+    </ClCompile>
+    <ClCompile Include="AddExp_def.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitParty.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCreateMob.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCreateMobTrade.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="SendAffect.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="SendEtc.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="SendScore.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="SendTrade.cpp">
+      <Filter>Source Files\CracketV754\PacketAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMessage.cpp">
+      <Filter>Source Files\CracketV754\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketControl_ASM.cpp">
+      <Filter>Source Files\CracketV754\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMessage.cpp">
+      <Filter>Source Files\CracketV754\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Cash_DataBase.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Conect.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_Save.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Premiun_Niel.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="rvr.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Guild.cpp">
+      <Filter>Source Files\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Recrutar.cpp">
+      <Filter>Source Files\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="buffs.cpp">
+      <Filter>Source Files\Macro</Filter>
+    </ClCompile>
+    <ClCompile Include="MobDead.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Pista_Uxmal_01.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Pista_Uxmal_02.cpp">
+      <Filter>Source Files\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Evento.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Odin.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc_Janela.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCFunc.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCLoad.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleportes.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="aHack.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerica.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Send_Packets.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab_Send.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_AddPoint.cpp">
+      <Filter>Source Files\Packets\Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_PacketControl.cpp">
+      <Filter>Source Files\Packets\Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Skill_Check.cpp">
+      <Filter>Source Files\Packets\Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Skill_Extraçao.cpp">
+      <Filter>Source Files\Packets\Fix</Filter>
+    </ClCompile>
+    <ClCompile Include="AddExp.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpControl.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NvPremio.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>Source Files\Teleportes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cartas.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Volatiles.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PergaA.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PergaM.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PergaN.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Pesadelo.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="vip_item.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Volatiles.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VolatilesFunc.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Trade.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Cash.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Donate.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DellItem754.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Capasreino.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="DesbugSkills.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Avisos.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Mestre_Habilidade.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest_Arch.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCs_Guerra.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Banacc.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItems.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PedraMisteriosa.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Salva_SubCelestia.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAndLoadBuffs.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Alquimia.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Sol.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Terra.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Vento.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Agua.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CharLogin.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ComandosAdmin.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Noticias.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Gritar.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="VerSaldo.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Rankingsite.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="TrocaClasse.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="ComandoMOD.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestHC.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Compor_Ordens.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Nova_Loja.cpp">
+      <Filter>Source Files\Itens_Loja</Filter>
+    </ClCompile>
+    <ClCompile Include="Quantidade_Gold.cpp">
+      <Filter>Source Files\Itens_Loja</Filter>
+    </ClCompile>
+    <ClCompile Include="Novo_Gold.cpp">
+      <Filter>Source Files\Itens_Loja</Filter>
+    </ClCompile>
+    <ClCompile Include="UseSkill1.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="OnSite.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DllItem.cpp">
+      <Filter>Source Files\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MestreGrifo.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportaItens.cpp">
+      <Filter>Source Files\Itens_Loja</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillExtração.cpp">
+      <Filter>Source Files\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnofGlory.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Compor_Pedra_ReturnofGlory.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Refinação_PL_PO.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove_Buffs.cpp">
+      <Filter>Source Files\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="desbugbm.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema_de_ban.cpp">
+      <Filter>Source Files\Anti_hacker</Filter>
+    </ClCompile>
+    <ClCompile Include="Reis.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="BigCubo.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Extras.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Perga_CP.cpp">
+      <Filter>Source Files\Volatiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Nova_Classe.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CLasse_NOVA.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Lac100.cpp">
+      <Filter>Source Files\NpcFunc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
