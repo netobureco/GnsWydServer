@@ -6255,8 +6255,8 @@ void ItensExpQuest(int ClientID,Volatile *v)
 			thisclient->Exp += exp;
 			if(thisclient->Gold >= 2000000000)
 			{
-				thisclient->Gold += 
-			}12500;
+				thisclient->Gold += 12500;
+			}
 			ExpQuest(ClientID,exp);
 		}
 	}
@@ -6335,7 +6335,9 @@ void LanHouseA(int ClientID, int SrcSlot)
 		for(int i = 0;i < 2;i++)
 			{
 	CreateMOB("Gargula_Giga",3926,3683,"Lan-A");
-				}1t);
+				}
+		DoTeleport(ClientID,3780,3524);
+		DeleteItem(ClientID,SrcSlot);
 		Atualizar(ClientID, _inv, SrcSlot);
 		return;
 	}
@@ -6729,5 +6731,5 @@ int racoes(int ClientID,int slot)
 		return 1;
 	}
  }
-	return;
-}	
+	return 0;
+}
