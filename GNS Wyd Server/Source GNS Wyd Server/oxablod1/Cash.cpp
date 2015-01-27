@@ -5,8 +5,8 @@ void CashNPC(int ClientID,int npcid)
 	FILE *arquivo;
 	
 	char cash[1000];
-	char cash2[1000];
-	char  line[120], nome[100], msg[100],msg_confirm[100];
+	//char cash2[1000];
+	//char  line[120], nome[100], msg[100]; // Retirar variáveis desnecessárias
 	MOB *player = (MOB*)GetMobFromIndex(ClientID);
 	MOB *vLogin = (MOB*)GetMobFromIndex(ClientID);
 	int itenslot1 = GetFirstSlotSADD(ClientID,3394,64);

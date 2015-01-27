@@ -1,19 +1,137 @@
-﻿Build started 6/5/2014 01:25:10.
-     1>Project "C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\oxablod1\oxablod1.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Release\oxablod1.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-         All outputs are up-to-date.
-         All outputs are up-to-date.
-       Link:
-         All outputs are up-to-date.
-         oxablod1.vcxproj -> C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\Release\oxablod1.dll
-       FinalizeBuildStatus:
-         Deleting file "Release\oxablod1.unsuccessfulbuild".
-         Touching "Release\oxablod1.lastbuildstate".
-     1>Done Building Project "C:\Documents and Settings\Administrador\Desktop\Source Servidor\Source Wellington\oxablod1\oxablod1.vcxproj" (build target(s)).
+﻿Build started 27/01/2015 01:07:01.
+     1>Project "C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\oxablod1\oxablod1.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\Release\oxablod1.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\Release\oxablod1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\Release\oxablod1.lib" /MACHINE:X86 /SAFESEH /DLL Release\AddExp.obj
+         Release\AddExp_def.obj
+         Release\AddMessage.obj
+         Release\Agua.obj
+         Release\aHack.obj
+         Release\Alquimia.obj
+         Release\Arch.obj
+         Release\ASM_Hook.obj
+         Release\Avisos.obj
+         Release\Banacc.obj
+         Release\BigCubo.obj
+         Release\buffs.obj
+         Release\Capas.obj
+         Release\Capasreino.obj
+         Release\Cartas.obj
+         Release\Cash.obj
+         Release\Cash_DataBase.obj
+         Release\cConfig.obj
+         Release\Celestial.obj
+         Release\CharLogin.obj
+         Release\CheckPacket.obj
+         Release\CLasse_NOVA.obj
+         Release\ComandoMOD.obj
+         Release\ComandosAdmin.obj
+         Release\Command.obj
+         Release\Commd_Packet.obj
+         Release\Compor_Ordens.obj
+         Release\Compor_Pedra_ReturnofGlory.obj
+         Release\Conect.obj
+         Release\DataBase.obj
+         Release\DellItem754.obj
+         Release\desbugbm.obj
+         Release\DesbugSkills.obj
+         Release\DllItem.obj
+         Release\dllmain.obj
+         Release\Donate.obj
+         Release\EquipItems.obj
+         Release\Evento.obj
+         Release\ExitParty.obj
+         Release\ExpControl.obj
+         Release\Extras.obj
+         Release\Fix_AddPoint.obj
+         Release\Fix_PacketControl.obj
+         Release\Fix_Skill_Check.obj
+         "Release\Fix_Skill_Extraçao.obj"
+         Release\Func.obj
+         Release\Gate.obj
+         Release\GetCreateMob.obj
+         Release\GetCreateMobTrade.obj
+         Release\GlobalData.obj
+         Release\Gritar.obj
+         Release\Guild.obj
+         Release\Hard_Core.obj
+         Release\ImportaItens.obj
+         Release\Init.obj
+         Release\Item.obj
+         Release\Lac100.obj
+         Release\Level.obj
+         Release\Load_Save.obj
+         Release\Login.obj
+         Release\MestreGrifo.obj
+         Release\Mestre_Habilidade.obj
+         Release\MobDead.obj
+         Release\New_Odin.obj
+         Release\New_Volatiles.obj
+         Release\Noticias.obj
+         Release\Nova_Classe.obj
+         Release\Nova_Loja.obj
+         Release\Novo_Gold.obj
+         Release\NPCFunc.obj
+         Release\NPCLoad.obj
+         Release\NPCs_Guerra.obj
+         Release\Npc_Janela.obj
+         Release\Numerica.obj
+         Release\NvPremio.obj
+         Release\OnSite.obj
+         Release\oxablod1.obj
+         Release\PacketControl_ASM.obj
+         Release\PedraMisteriosa.obj
+         Release\PergaA.obj
+         Release\PergaM.obj
+         Release\PergaN.obj
+         Release\Perga_CP.obj
+         Release\Pesadelo.obj
+         Release\PE_DefConst.obj
+         Release\Pista_Uxmal_01.obj
+         Release\Pista_Uxmal_02.obj
+         Release\Premiun_Niel.obj
+         Release\Quantidade_Gold.obj
+         Release\QuestHC.obj
+         Release\Quest_Arch.obj
+         Release\Rankingsite.obj
+         Release\ReadMessage.obj
+         Release\Recrutar.obj
+         "Release\Refinação_PL_PO.obj"
+         Release\Reis.obj
+         Release\Remove_Buffs.obj
+         Release\ReturnofGlory.obj
+         Release\rvr.obj
+         Release\Salva_SubCelestia.obj
+         Release\SaveAndLoadBuffs.obj
+         Release\SendAffect.obj
+         Release\SendEtc.obj
+         Release\SendScore.obj
+         Release\SendTrade.obj
+         Release\Send_Packets.obj
+         Release\Sistema_de_ban.obj
+         "Release\SkillExtração.obj"
+         Release\Sol.obj
+         Release\stdafx.obj
+         Release\Sub_Celestial.obj
+         Release\Tab.obj
+         Release\Tab_Send.obj
+         Release\Teleportes.obj
+         Release\Terra.obj
+         Release\Trade.obj
+         Release\TrocaClasse.obj
+         Release\UseSkill1.obj
+         Release\Vento.obj
+         Release\VerSaldo.obj
+         Release\vip_item.obj
+         Release\Volatiles.obj
+         Release\VolatilesFunc.obj
+         Gerando código
+     1>c:\users\geraldo\documents\github\gnswydserver\gns wyd server\source gns wyd server\oxablod1\volatiles.cpp(7): warning C4700: variável local não inicializada 'SrcSlot' usada
+     1>c:\users\geraldo\documents\github\gnswydserver\gns wyd server\source gns wyd server\oxablod1\volatiles.cpp(8): warning C4700: variável local não inicializada 'DstSlot' usada
+     1>c:\users\geraldo\documents\github\gnswydserver\gns wyd server\source gns wyd server\oxablod1\volatiles.cpp(9): warning C4700: variável local não inicializada 'warp' usada
+         Finalizada a geração de código
+     1>LINK : fatal error LNK1207: formato PDB inválido no 'C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\Release\oxablod1.pdb'; exclua ou recompile
+     1>Done Building Project "C:\Users\Geraldo\Documents\GitHub\GnsWydServer\GNS Wyd Server\Source GNS Wyd Server\oxablod1\oxablod1.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.28
+Time Elapsed 00:00:04.08

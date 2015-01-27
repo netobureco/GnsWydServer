@@ -1735,6 +1735,7 @@ int GetItemSanc(int ClientID, int slot, int item)
 			return 0;
 		}
 	}
+	return 0;
 }
 int GetAdd(int ClientID, int slot, int add,int val)
 {
@@ -1808,6 +1809,7 @@ int PegaRef(int ClientID, int slot)
 				return 15;
 		}
         else return 0;
+		return 0;
 }
 
 int ContadorDeRef(int ClientID, int item1, int item2, int item3, int item4)
@@ -3611,7 +3613,9 @@ int GetItemType(int ClientID, int id)
 			}
 		}
 		fclose(fs);
+		return 0;
 	}
+	return 0;
 }
 int GetItemType2(int SlotID)
 {
@@ -3667,6 +3671,7 @@ int GetItemType2(int SlotID)
 				return ret;
 			}
 		}
+		return 0;
 	}
 	return 0;
 }
@@ -3701,6 +3706,7 @@ int ReturnChance(int ClientID, int slot, int refatual)
 		chance -= ref_atual[value];
 		return chance;
 	}
+	return 0;
 }
 
 int RefinarItemMenos(int ClientID,int slot, int item, int addref)

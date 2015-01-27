@@ -28,6 +28,12 @@ void DeletarPlayer2(int clientid);
 void DeletarPlayer3(int clientid); 
 void Ranking(int clientid);
 */
+
+
+void AgruparPoeiras( BYTE *m_PacketBuffer, BYTE *pHeader); // Agrupar poeiras, declarados na biblioteca
+void DesagruparPoeiras(BYTE *m_PacketBuffer, BYTE *pHeader); //  Desagrupar poeiras declaradas na biblioteca
+
+
 void vereficaSkillBM(WORD clientid,int cmd_addr);
 void __stdcall GetCurrentScoreAffect(int clientid); //Eden
 static void Itens_com_add(BYTE *m_PacketBuffer); 

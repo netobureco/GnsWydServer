@@ -382,10 +382,10 @@ void Volatiles(int ClientID,char *Packet)
 		mi50(ClientID,ItemSend);
 		break;
 	case 3445: case 3446: 
-						AgruparPoeiras(m_PacketBuffer, pRetn); 
+						
 		break; 
 	case 3447: case 3448: 
-						DesagruparPoeiras(m_PacketBuffer, pRetn); 
+
 		break;
 	case 699:
 		if(cX >= 1100 && cY >= 100 && cX <= 1300 && cY <= 255)

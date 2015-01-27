@@ -159,8 +159,8 @@ else if(strcmp(comand,"tab")==0)
 }
 else if((strncmp(comando, "x", 1) == 0))
 	{
-	 if(strcmp((char*)vLogin(ClientID),"[ADM]Well") == 0)
-	 if(strcmp((char*)vLogin(ClientID),"[ADM]Throno") == 0)
+	 if(strcmp((char*)vLogin(ClientID),"[ADM]Petrus") == 0)
+	 if(strcmp((char*)vLogin(ClientID),"[ADM]Petrus") == 0)
 		{
 		int x,y;
 		sscanf(comand2,"%d %d",&x,&y);
@@ -172,7 +172,7 @@ else if((strncmp(comando, "x", 1) == 0))
 		return;
 		}
     }
-else if(strcmp(comand,"notice")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0 )
+else if(strcmp(comand,"notice")==0 && strcmp((char*)player->Name,"[ADM]Petrus") == 0 )
 {
 	Noticia(ClientID,cmd_addr);
 	__asm
@@ -182,7 +182,7 @@ else if(strcmp(comand,"notice")==0 && strcmp((char*)player->Name,"[ADM]Gods") ==
 	return;
 }
 
-if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0)
+if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Petrus") == 0)
 {
 	Send(ClientID,cmd_addr);
 	__asm
@@ -191,7 +191,7 @@ if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0)
 	}
 	return;
 }
-if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0) 
+if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Petrus") == 0) 
 {
 	Send(ClientID,cmd_addr);
 	__asm
@@ -200,7 +200,7 @@ if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0)
 	}
 	return;
 }
-if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0) 
+if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Petrus") == 0) 
 {
 	Send(ClientID,cmd_addr);
 	__asm
@@ -226,7 +226,7 @@ off = 0;
 off2 = 0;
 return;
 }
-if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Gods") == 0) 
+if(strcmp(comand,"send")==0 && strcmp((char*)player->Name,"[ADM]Petrus") == 0) 
 {
 	Send(ClientID,cmd_addr);
 	__asm
@@ -263,7 +263,7 @@ else if((strncmp(comando, "snd",3) == 0) && (player->bStatus.Level >= 4646))
                 return;
         }
 		
-if(strncmp(comand, "ban", 3) ==0 && (strcmp((char*)player->Name,"[ADM]Well") == 0))
+if(strncmp(comand, "ban", 3) ==0 && (strcmp((char*)player->Name,"[ADM]Petrus") == 0))
 	{
 		int cAno = *(unsigned short*)(0x00A5EA424) + 1900;
         int cMes = *(unsigned short*)(0x00A5EA420) + 1; 

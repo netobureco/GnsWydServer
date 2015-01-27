@@ -10,7 +10,7 @@ void NPCGuerras(BYTE *m_PacketBuffer)
 	{
 		FILE *fs = NULL;
 		char line[120];
-		char *dono, *msg;
+		char *dono = NULL, *msg = NULL;
 		int guild,apostado1,apostado2;
 		fs = fopen("DataBase\\Guerras\\Azran.txt", "rt+");			
 		if(fs != NULL)
@@ -30,7 +30,7 @@ void NPCGuerras(BYTE *m_PacketBuffer)
 	{
 		FILE *fs = NULL;
 		char line[120];
-		char *dono, *msg;
+		char *dono = NULL, *msg = NULL; // Incializando as variáveis com valores nulos, porém elas poderão assumir novos valores posteriormente
 		int guild,apostado1,apostado2;
 		fs = fopen("DataBase\\Guerras\\Erion.txt", "rt+");		
 		if(fs != NULL)
@@ -50,7 +50,7 @@ void NPCGuerras(BYTE *m_PacketBuffer)
 	{
 		FILE *fs = NULL;
 		char line[120];
-		char *dono, *msg;
+		char *dono = NULL, *msg = NULL;
 		int guild,apostado1,apostado2;
 		fs = fopen("DataBase\\Guerras\\Armia.txt", "rt+");			
 		if(fs != NULL)
